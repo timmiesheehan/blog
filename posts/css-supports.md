@@ -9,7 +9,7 @@ You can use @supports to detect if a feature is supported in the browser
 }
 
 @supports (selector(:has(*))){
-  .block{ display: block; }
+  .block:has(img){ display: block; }
 }
 
 
