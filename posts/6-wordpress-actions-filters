@@ -1,0 +1,7 @@
+# WordPress Actions & Filters
+
+Actions allow you to add code where the WordPress core, a plug-in or your own code is doing something. 
+You need to use the function do_action at this point to allow developers hook into that area using add_action. 
+
+Filters allow you to modify data at a certain point. 
+You will need to use apply_filters when writing the code so a developer can use add_filter later on. 
